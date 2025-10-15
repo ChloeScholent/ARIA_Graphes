@@ -20,7 +20,7 @@ def load_file(fdin):
 # Main loop
 if __name__ == '__main__':
 
-        outfig="distribution_erdos_renyi.pdf"
+        outfig="distribution.pdf"
         
         # properties of figure
         fig=figure(figsize=(12,9))

@@ -137,7 +137,7 @@ if __name__ == '__main__':
         infile.close()
         
         #compute and print properties
-        outfile=open("properties_erdos_renyi.txt", "w")
+        outfile=open("properties", "w")
         printGraphStat(graph,outfile) 
         outfile.close()
 
@@ -149,7 +149,7 @@ if __name__ == '__main__':
                         distdeg[d] = 0
                 distdeg[d] = distdeg[d] + 1
                 
-        outfile=open("degdist_erdos_renyi.txt", "w")
+        outfile=open("degdist.txt", "w")
         printDistribution(distdeg,outfile)
         outfile.close()
 
